@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN</title>
     <link rel="stylesheet" href="estilos/mobile-first.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
 </head>
 <body>
     <main>
         <section>
             <div id="landscape">
+                <h1>69 LANCHES</h1>
             </div>
 
             <div id="formulario">
@@ -18,9 +20,11 @@
                 <p>Faça login para entrar no site.</p>
 
                 <form action="sla.php" method="post">
-                    <input type="email" id="imail" class="campo" placeholder="Email" required> <br>
+                    <label for="imail"><span class="material-symbols-outlined">person</span></label>
+                    <input type="email" id="imail" class="campo" placeholder="Email" autocomplete="email" required> <br>
 
-                    <input type="password" id="ipass" class="campo" placeholder="Senha" required minlength="8"> <br>
+                    <label for="ipass"><span class="material-symbols-outlined">lock_open</span></label>
+                    <input type="password" id="ipass" class="campo" placeholder="Senha" autocomplete="current-password" required minlength="8"> <br>
 
                     <input type="submit" id="sub" value="Enviar">
 
