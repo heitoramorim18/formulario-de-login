@@ -1,0 +1,61 @@
+/* -- VERSÃO MOBILE --*/
+
+/* CONFIGURAÇÕES INICIAIS */
+* {margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;}
+
+/* PALETA DE CORES */
+:root {
+    --preto: #000500;
+    --azulBebe: #00A7E1;
+    --brancoNeve: #FFFBFF;
+    --laranjaChocolate: #DA7635;
+    --laranja: #E24E1B; }
+
+
+body {height: 100vh;}
+
+main {position: relative;
+background-color: var(--laranjaChocolate);
+height: 100vh;}
+
+#landscape {background: var(--laranjaChocolate) url(imagens/pexels-hamburguer-1.jpg);
+background-size: cover;
+background-position: bottom;
+height: 250px;
+box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.363);}
+
+form {height: 230px;}
+
+#formulario {margin: auto;
+background-color: rgb(235, 233, 233);
+width: 80%;
+height: 340px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+margin-top: 0.4px;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
+padding: 10px;}
+
+#formulario h2, p {text-align: center;}
+
+h2, p {margin-bottom: 15px;}
+
+.campo {margin: 5px;
+padding: 15px;
+width: 90%;
+border-radius: 5px;
+border: none;
+background-color: rgb(245, 245, 245);
+box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.404);}
+
+#sub {margin: 8px 0px;
+width: 97%;
+padding: 15px;
+font-weight: bold;
+font-size: 16px;
+background-color: var(--azulBebe);
+border: none;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.541);}
