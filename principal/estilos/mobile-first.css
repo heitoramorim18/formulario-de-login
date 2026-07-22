@@ -15,7 +15,7 @@ font-weight: bold;}
 
 
 body {height: 100%;
-background: var(--laranja) url();}
+background: var(--laranja) url(imagens/fundo_2.webp);}
 
 
 main {position: relative;
@@ -48,6 +48,8 @@ cursor: pointer;}
 
 h2, p {margin-bottom: 10px;}
 
+h2 {padding-top: 15px;}
+
 p, a {font-size: 14px;}
 
 .campo {margin: 5px;
@@ -59,7 +61,7 @@ background-color: rgb(245, 245, 245);
 box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.404);}
 
 #sub {margin: 8px 0px;
-width: 97%;
+width: 95%;
 padding: 15px;
 font-weight: bold;
 font-size: 14px;
@@ -84,8 +86,6 @@ a:hover {color: #00A7E1;}
 
     .campo {width: 68%;}
 
-    #formulario {height: 370px;
+    #formulario {height: 340px;
     margin-top: -10px;}
-
-    a {padding-top: 40px;}
 }
