@@ -44,7 +44,8 @@ padding: 10px 0px 10px 10px;}
 #formulario h2, p {text-align: center;}
 
 label {vertical-align: middle;
-cursor: pointer;}
+cursor: pointer;
+padding-left: 30px;}
 
 h2, p {margin-bottom: 10px;}
 
@@ -52,7 +53,7 @@ h2 {padding-top: 15px;}
 
 p, a {font-size: 14px;}
 
-.campo {margin: 5px 0px 5px 40px;
+.campo {margin: 5px 0px 5px 10px;
 padding: 15px;
 width: 60%;
 border-radius: 5px;
@@ -77,6 +78,7 @@ color: black;}
 
 a {display: block;
 padding: 15px 0px 15px 0px;
+margin-left: 30px;
 width: 180px;}
 
 a:hover {color: #00A7E1;}
@@ -87,5 +89,10 @@ a:hover {color: #00A7E1;}
     .campo {width: 69%; margin: 5px 0px;}
 
     #formulario {height: 325px;
-    margin-top: -10px;}
+    margin-top: -10px;
+    margin-left: 0px;}
+
+    label {padding-left: 0px;}
+
+    a {margin-left: 0px;}
 }
