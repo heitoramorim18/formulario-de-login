@@ -82,10 +82,10 @@ a:hover {color: #00A7E1;}
 @media screen and (min-width: 375px) and (max-width: 500px) {
 
 
-    .campo {width: 65%;}
+    .campo {width: 68%;}
 
-    #formulario {height: 400px;
+    #formulario {height: 370px;
     margin-top: -10px;}
 
-    a {padding-top: 30px;}
+    a {padding-top: 40px;}
 }
