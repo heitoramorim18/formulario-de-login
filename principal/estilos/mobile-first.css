@@ -34,7 +34,7 @@ form {height: 206x;}
 #formulario {margin: auto;
 background-color: rgb(235, 233, 233);
 width: 80%;
-height: 320px;
+height: 290px;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 margin-top: -65px;
@@ -52,7 +52,7 @@ p, a {font-size: 14px;}
 
 .campo {margin: 5px;
 padding: 15px;
-width: 69%;
+width: 60%;
 border-radius: 5px;
 border: none;
 background-color: rgb(245, 245, 245);
@@ -74,7 +74,7 @@ box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.541);}
 color: black;}
 
 a {display: block;
-padding-top: 20px;
+padding-top: 15px;
 width: 180px;}
 
 a:hover {color: #00A7E1;}
