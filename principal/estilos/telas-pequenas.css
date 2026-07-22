@@ -1,7 +1,7 @@
 @media screen and (min-width: 240px) and (max-width: 500px) {
     
     
-    .campo {width: 70%}
-    a {padding-top: 20px;}
-    #formulario {height: 400px;}
+    .campo {width: 80%}
+    a {padding-top: 30px;}
+    #formulario {height: 500px;}
 }
