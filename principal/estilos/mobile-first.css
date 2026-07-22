@@ -80,6 +80,5 @@ width: 180px;}
 @media screen and (min-width: 240px) and (max-width: 500px) {
     
     
-    .campo {width: 70%}
-    a {padding-top: 15px;}
+    .campo {width: 20%}
 }
