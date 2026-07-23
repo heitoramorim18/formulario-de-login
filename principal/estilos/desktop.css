@@ -5,8 +5,9 @@ body {overflow-y: hidden;}
 
 body {background: none;}
 
-#landscape {display: none;
-width: 60%;}
+#landscape {float: right;
+width: 60%;
+height: 100vh;}
 
 #formulario {width: 40%;
 margin: 0px;
