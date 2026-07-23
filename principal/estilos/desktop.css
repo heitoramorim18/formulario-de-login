@@ -1,0 +1,23 @@
+/* -- VERSÃO PARA DESKTOPS / TVs -- */
+
+
+body {overflow-y: hidden;}
+
+body {background: none;}
+
+#landscape {display: none;
+width: 60%;}
+
+#formulario {width: 40%;
+margin: 0px;
+height: 650px;
+padding-top: 100px;
+padding-left: 0px;}
+
+#formulario p {margin-bottom: 30px; line-height: 25px;}
+
+#sub {width: 60%;
+margin-left: 16%;}
+
+a {margin-left: 10%;
+margin-top: 20px;}
