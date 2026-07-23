@@ -89,7 +89,8 @@ a:hover {color: #00A7E1;}
     .campo {width: 69%; margin: 5px 0px;}
 
     #formulario {height: 325px;
-    margin-top: -10px;}
+    margin-top: -10px;
+    margin: auto;}
 
     label {padding-left: 0px;}
 
