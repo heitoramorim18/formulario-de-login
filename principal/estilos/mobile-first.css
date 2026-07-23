@@ -45,7 +45,7 @@ padding: 10px 0px 10px 10px;}
 
 label {vertical-align: middle;
 cursor: pointer;
-padding-left: 40px;}
+padding-left: 7%;}
 
 h2, p {margin-bottom: 10px;}
 
@@ -53,9 +53,11 @@ h2 {padding-top: 15px;}
 
 p, a {font-size: 14px;}
 
-.campo {margin: 5px 0px 5px 0px;
+.campo {display: inline-block;
+margin: auto;
+margin: 5px 0px 5px 0px;
 padding: 15px;
-width: 60%;
+width: 67%;
 border-radius: 5px;
 border: none;
 background-color: rgb(245, 245, 245);
@@ -78,21 +80,31 @@ color: black;}
 
 a {display: block;
 padding: 15px 0px 15px 0px;
-margin-left: 30px;
+margin-left: 40px;
 width: 180px;}
 
 a:hover {color: #00A7E1;}
 
+
+/* -- REAJUSTES PARA TELAS PEQUENAS ACIMA DE 375px DE LARGURA-- */
 @media screen and (min-width: 375px) and (max-width: 500px) {
 
 
     .campo {width: 75%; margin: 5px 0px;}
 
     #formulario {height: 325px;
-    margin-top: -15px;
     margin: auto;}
 
     label {padding-left: 0px;}
 
     a {margin: 0px; padding: 15px 0px;}
+}
+
+
+/* -- AJUSTES PARA IPHONE 8 (tela de até 375px de largura) -- */
+@media screen and (min-width: 240px) and (max-width: 375px) {
+    .campo {width: 160px;}
+    label {padding: 0px;}
+    #formulario {margin-top: -60px;}
+    a {display: inline-block; margin: auto;}
 }
