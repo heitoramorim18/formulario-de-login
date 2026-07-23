@@ -1,9 +1,0 @@
-/* -- VERSÃO DE TABLETS (768px até 992px) --*/
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
-
-
-    label {margin-left: 0px;}
-    .campo {width: 70%; display: inline-block; margin: auto; margin: 5px 0px;}
-    a {display: block; margin: auto;}
-}
