@@ -93,8 +93,7 @@ a:hover {color: #00A7E1;}
 
     .campo {width: 75%; margin: 5px 0px;}
 
-    #formulario {height: 325px;
-    margin: auto;}
+    #formulario {height: 325px; margin: auto;}
 
     label {padding-left: 0px;}
 
@@ -105,9 +104,14 @@ a:hover {color: #00A7E1;}
 
 /* -- AJUSTES PARA IPHONE 8 (tela de até 375px de largura) -- */
 @media screen and (min-width: 240px) and (max-width: 375px) {
+
+
     .campo {width: 160px;}
+
     label {padding: 0px;}
+
     #formulario {margin-top: -60px;}
+
     a {display: inline-block; margin: auto;}
 }
 
@@ -118,6 +122,8 @@ a:hover {color: #00A7E1;}
 
 
     label {margin-left: 0px;}
+
     .campo {width: 70%; display: inline-block; margin: auto; margin: 5px 0px;}
+
     a {display: block; margin: auto;}
 }
