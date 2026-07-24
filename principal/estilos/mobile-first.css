@@ -150,3 +150,34 @@ a:hover {color: #00A7E1;}
 
     a {margin-bottom: 20px;}
 }
+
+
+
+/* -- VERSÃO PARA DESKTOPS / TVs -- */
+@media screen and (min-width: 992px) {
+
+
+    body {background: none;
+    overflow-y: hidden;}
+
+    #landscape {float: right;
+    width: 60%;
+    height: 100vh;
+    transition: width 0.1s;}
+
+    #formulario {width: 40%;
+    margin: 0px;
+    height: 650px;
+    padding-top: 100px;
+    padding-left: 0px;}
+
+    #formulario p {margin-bottom: 30px; line-height: 25px;}
+
+    #sub {width: 60%;
+    margin-left: 16%;}
+
+    a {margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 150px;}
+}
