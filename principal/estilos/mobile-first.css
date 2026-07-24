@@ -87,26 +87,12 @@ a:hover {color: #00A7E1;}
 
 
 
-/* -- REAJUSTES PARA TELAS PEQUENAS ACIMA DE 375px DE LARGURA-- */
-@media screen and (min-width: 375px) and (max-width: 500px) {
-
-
-    .campo {width: 75%; margin: 5px 0px;}
-
-    #formulario {height: 325px; margin: auto;}
-
-    label {padding-left: 0px;}
-
-    a {margin: 0px; padding: 15px 0px;}
-}
-
-
-
 /* -- AJUSTES PARA IPHONE 8 (tela de até 375px de largura) -- */
 @media screen and (min-width: 240px) and (max-width: 375px) {
 
 
-    .campo {width: 160px;}
+    .campo {width: 67%;
+    /* width: 160px; */}
 
     label {padding: 0px;}
 
@@ -117,6 +103,43 @@ a:hover {color: #00A7E1;}
 
 
 
+/* -- REAJUSTES PARA TELAS PEQUENAS ACIMA DE 375px DE LARGURA-- */
+@media screen and (min-width: 375px) and (max-width: 500px) {
+
+
+    .campo {width: 75%; margin: 5px 0px;}
+
+    #formulario {height: 310px; margin: auto;}
+
+    label {padding-left: 0px;}
+
+    a {margin: 0px; padding: 15px 0px;}
+}
+
+
+
+/* -- AJUSTE DO TAMANHO DO BOTÃO PARA CELULARES GRANDES -- */
+@media screen and (min-width: 600px) {
+
+
+    #sub {display: block;
+    width: 70%;
+    margin: auto;}
+}
+
+
+
+/* -- AJUSTE DO TAMANHO DO BOTÃO PARA TABLETS -- */
+@media screen and (min-width: 830px) {
+
+
+    #sub {display: block;
+    width: 55%;
+    margin: auto;}
+    
+}
+
+
 /* -- VERSÃO DE TABLETS (768px até 992px) --*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
@@ -125,5 +148,5 @@ a:hover {color: #00A7E1;}
 
     .campo {width: 70%; display: inline-block; margin: auto; margin: 5px 0px;}
 
-    a {display: block; margin: auto;}
+    a {margin-bottom: 20px;}
 }
